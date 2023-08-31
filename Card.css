@@ -1,0 +1,32 @@
+.column div {
+    display: flex;
+    align-items: center;
+}
+
+.column div p {
+    margin: 10px;
+}
+
+body{
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    transition: all 0.7 ease-in;
+}
+
+.column>img:hover{
+    background-color: aqua;
+    color: white;
+    transform: scale(1.04);
+    border-radius: 20px;
+    box-shadow: 5px 5px white;
+}
+
+.column{
+    padding: 30px;
+    flex:33.33%
+}
