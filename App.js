@@ -21,7 +21,7 @@ function App() {
       <CardList2/>
       <Btm_section/>
       <Mid_section2/>
-      <Bot_sec/>
+      <Bot_/>
       <Footer/>
     </div>
   );
